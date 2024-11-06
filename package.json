@@ -1,0 +1,47 @@
+{
+	"name": "backend-boilerplate",
+	"version": "1.1.1",
+	"private": true,
+	"scripts": {
+		"start": "node server.js",
+		"dev": "nodemon server.js"
+	},
+	"dependencies": {
+		"axios": "^0.26.1",
+		"bcryptjs": "2.4.3",
+		"body-parser": "^1.18.2",
+		"colors": "^1.2.1",
+		"commander": "^2.15.0",
+		"compression": "1.7.2",
+		"connect-mongo": "^2.0.1",
+		"cookie-parser": "1.4.3",
+		"cors": "^2.8.5",
+		"debug": "3.1.0",
+		"dotenv": "^8.2.0",
+		"ejs": "2.5.7",
+		"express": "4.16.3",
+		"express-session": "^1.15.6",
+		"helmet": "^3.21.1",
+		"jshint-stylish": "^2.2.1",
+		"jsonwebtoken": "^8.5.1",
+		"limiter": "^1.1.2",
+		"lodash": "^4.17.21",
+		"mkdirp": "^0.5.1",
+		"moment": "2.22.2",
+		"mongoose": "^5.13.14",
+		"morgan": "^1.9.1",
+		"multer": "^1.4.3",
+		"nodemailer": "^6.7.0",
+		"passport": "^0.4.0",
+		"passport-jwt": "^4.0.0",
+		"passport-local": "^1.0.0",
+		"randomstring": "^1.1.5",
+		"request": "^2.87.0",
+		"request-promise": "^4.2.4",
+		"serve-favicon": "^2.4.5",
+		"validator": "^9.4.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12"
+	}
+}
